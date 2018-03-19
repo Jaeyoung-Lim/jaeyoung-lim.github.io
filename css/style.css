@@ -99,6 +99,14 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
   padding: 1em 2em 1em 2em;
 }
 
+.page img {
+  /*float: left; */
+  width: auto;
+  max-width: 100%;
+  min-width: 100px;
+  overflow: hidden;
+}
+
 /* Project tag. */
 .project
 {
@@ -119,6 +127,7 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
     float: left;
     /* TRBL */
     margin: 5px 20px 5px 5px;
+    max-width: 20%;
     min-width: 150px;
 }
 
