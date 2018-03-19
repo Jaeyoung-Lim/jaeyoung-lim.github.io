@@ -9,6 +9,7 @@
 .background{
   align-items: center!important;
   max-width:1600px;
+  background: #eee;
 }
 
 #leftbar{
