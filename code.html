@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jaeyoung Lim</title>
+  <meta name="description" content="Remove difficult words!">
+  <meta name="author" content="Jaeyoung Lim">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet">
+}
+
+</head>
+
+<body>
+		<div style="min-height:100%;" class="container-fluid" id="background">
+			<div class="row" style="padding:20px">
+        <div class="col-md-3" id="leftbar">
+					<div id="leftsidebar">
+            <h2 id="jaeyounglim">Jaeyoung Lim</h2>
+            <img id="profile" src="resources/images/profile.jpg">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="research.html">Research</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Code/Data</a>
+                </li>
+              </ul>
+					</div>
+				</div>
+				<div class="col-md-8 offset" id="middlebar">
+					<div id="research" class="section">
+            <h3>Code/Data</h3>
+            <div class="page">
+              <div class = "project-left">
+                <div class="title"><h4><a href="https://github.com/Jaeyoung-Lim/mavros_controllers">mavros_controllers</a></h4></div>
+                <!-- <div class="author">Autonomous Systems Lab, ETH Zurich</div> -->
+                <a href="https://github.com/Jaeyoung-Lim/mavros_controllers"><img src="resources/images/code_mavroscontrollers.gif"></a>
+                <p>
+                  <b>mavros_controllers</b> is a trajectory tracking controller implemented using mavros for PX4 enabled vehicles.
+                  The implementation is based on a nonlinear geometric controller.
+
+                </p>
+                <p>To learn more about the project, visit: <a href="https://github.com/Jaeyoung-Lim/mavros_controllers">Jaeyoung-Lim/mavros_controllers</a></p>
+                <div class="wipdetail"></div>
+              </div>
+            </div>
+            <div class="page">
+              <div class = "project-left">
+                <div class="title"><h4><a href="https://github.com/Auterion/px4-jsbsim-bridge">px4-jsbsim-bridge</a></div>
+                <!-- <div class="author">Autonomous Systems Lab, ETH Zurich</div> -->
+                <a href="https://github.com/Auterion/px4-jsbsim-bridge"><img src="resources/images/code_jsbsim.gif"></a>
+                <p>
+                  <b>px4-jsbsim-bridge</b> is a bridge interface for PX4 Software-In-The-Loop simulation and jsbsim.
+                  This allows the PX4 simulation framework to utilize the high fidelity aerodynamic models of the <a href="https://github.com/JSBSim-Team/jsbsim">jsbsim</a>.
+                </p>
+                <p>To learn more about the project, visit: <a href="https://github.com/Auterion/px4-jsbsim-bridge">Auterion/px4-jsbsim-bridge</a></p>
+                <div class="wipdetail"></div>
+              </div>
+            </div>
+            <div class="page">
+              <div class = "project-left">
+                <div class="title"><h4><a href="https://github.com/Auterion/px4-simulation-ignition">px4-simulation-ignition</a></div>
+                <!-- <div class="author">Autonomous Systems Lab, ETH Zurich</div> -->
+                <a href="https://github.com/Auterion/px4-simulation-ignition"><img src="resources/images/code_ignition.png"></a>
+                <p>
+                  <b>px4-simulation-ignition</b> is a bridge interface for PX4 Software-In-The-Loop simulation and ignition gazebo.
+                  This allows the PX4 simulation framework to utilize the <a href="https://github.com/Auterion/px4-simulation-ignition">ignition gazebo</a> environment.
+                </p>
+                <p>To learn more about the project, visit: <a href="https://github.com/Auterion/px4-simulation-ignition">Auterion/px4-simulation-ignition</a></p>
+                <div class="wipdetail"></div>
+              </div>
+            </div>
+            <!-- <h3>Previous Projects</h3>
+            <div class="page">
+              <div class = "project-left">
+              <div class="title"><b>QB50 (Development of 2U Cubesat SNUSAT-1)</b> </div>
+              <div class="author">with Jihyun Park, Maskey Abhas, In-Seuck Jeong</div>
+              <img src="resources/images/research_snusat1.jpg">
+              <p> SNUSAT-1 is a 2U Cubesat developed as part of the <a href="https://cordis.europa.eu/project/id/284427">QB50 project</a> with 50 other universities. My contribution was in the electrical system of the satellite. I also developed a PCB type magnetic torquer, which is a low power actuator used for controlling the attitude of the satellite. SNUSAT-1 and SNUSAT-1b was launched to orbit on July 2017. </p>
+              <div class="wipdetail"></div>
+            </div>
+            </div> -->
+        </div>					
+					<div id="lastupdate" style="text-align:right">Last update: March 17, 2018</div>
+				</div>
+				<div class="col-md-1 offset" id="rightbar">
+				</div>
+			</div>
+			<div class="row"></div>
+</body>
+</html>

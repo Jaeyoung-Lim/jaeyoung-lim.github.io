@@ -17,43 +17,100 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="css/style.css" rel="stylesheet">     
+  <link href="css/style.css" rel="stylesheet">
+}
+
 </head>
 
 <body>
-	<div style="min-height:100%;" class="container-fluid" id="background">
-	<div class="row" style="padding:20px">
-		<div class="col-md-3" id="leftbar">
-			<div id="leftsidebar">
-			    <h2 id="jaeyounglim">Jaeyoung Lim</h2>
-			    <ul class="nav flex-column">
-			        <li class="nav-item">
-			          <a class="nav-link" href="index.html">About</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="nav-link" href="research.html">Research</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="nav-link" href="projects.html">Projects</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="nav-link active" href="#">Publication</a>
-			        </li>
-			      </ul>
+		<div style="min-height:100%;" class="container-fluid" id="background">
+			<div class="row" style="padding:20px">
+        <div class="col-md-3" id="leftbar">
+					<div id="leftsidebar">
+            <h2 id="jaeyounglim">Jaeyoung Lim</h2>
+            <img id="profile" src="resources/images/profile.jpg">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="research.html">Research</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="code.html">Code/Data</a>
+                </li>
+              </ul>
+					</div>
+				</div>
+				<div class="col-md-8 offset" id="middlebar">
+					<div id="research" class="section">
+            <h3>Ongoing Projects</h3>
+            <div class="page">
+              <div class = "project-left">
+              <div class="title"><b>Avalmapper</b> </div>
+              <div class="author">Autonomous Systems Lab, ETH Zurich</div>
+              <img src="resources/images/logo_avalmapper.png">
+              <p>
+                Snow avalanches kill, on average, 22 people per year in the Swiss Alps alone. This makes them the most deadly natural hazard, responsible for more than one third of all natural hazard fatalities.
+                The <b>AVALMAPPER</b> project aims to use an system for collecting high-resolution avalanche occurrence data over affected regions in the Swiss Alps.
+                 This is a collaboration between the Autonomous Systems Lab (ASL) at ETHZurich and SLF.
+              </p>
+              <p>To learn more about the project, visit: <a href="https://avalmapper.ethz.ch/">https://avalmapper.ethz.ch/</a></p>
+              <div class="wipdetail"></div>
+            </div>
+            </div>
+            <h3>Previous Projects</h3>
+            <!-- <div class="page">
+              <div class = "project-left">
+                <div class="title"> <b> Model Free obstacle avoidance using deep reinforcement learning </b> </div>
+                <div class="author">with Rik Bahnemann, Mark Pfeiffer, Roland Siegwart</div>
+                 <img src="resources/images/research_modelfree.jpg">
+                 <p> The idea of integrating a controller with perception, control and planner in a single network is explored.
+                  A simulation environment was constructed using <a href="https://bitbucket.org/leggedrobotics/rai">RAI</a>, 
+                  a c++ framework for benchmark and development of learning algorithms. A policy was trained which uses the depth of the scene
+                  and the state of the quadrotor and outputs rotor thrust. The policy has shown that it is capable of avoiding 
+                  obstacles with a high success rate. Moreover, it was shown that the policy can adapt to camera parameters such as depth range, frame update rates.</p>
+                <div class="wipdetail"></div>
+              </div>
+            </div> -->
+            <!-- <div class="page">
+              <div class = "project-left">
+              <div class="title"><b>Nonlinear Trajectory Planning for slung load quadrotor systems </b></div>
+              <div class="author">with Davide Falanga, Phillip Foehn, Naveen Kuppuswamy, Davide Scaramuzza</div>
+                                 <img src="resources/images/research_rpg.png">
+                                 <p> A slung load on a quadrotor can be used for various applications as load transportation, aerial manipulation. As it is the most minimal setup
+                                 for manipulating objects it can be agile and efficient compared to actuated manipulators. However, the dynamics are nonlinear and hybrid, thus it is hard
+                               to plan and evaluate trajectorties for collision. This project uses a direct method in order to optimize a collision free trajectory which uses 3D minimum distances to evaluate collision. The result is a much faster planning in collision free trajectory planning which can handle a large number of obstacles.</p>
+              <div class="wipdetail"></div>
+            </div>
+            </div> -->
+            <!-- <div class="page">
+              <div class = "project-left">
+              <div class="title"><b>Fixed tool aerial manipulation </b></div>
+              <div class="author">with Hyunsoo Yang, Hai-Nguyen Nguyen, Dongjun Lee</div>
+              <img src="resources/images/research_fixedtool.jpg">
+                                 <p> Nguyen(2016) showed that a 3 axis force can be generated from a tool rigidly attached to a underactuated quadrotor. This project implements the theory into a real platform. </p>
+              <div class="wipdetail"></div>
+            </div>
+            </div> -->
+            <div class="page">
+              <div class = "project-left">
+              <div class="title"><b>QB50 (Development of 2U Cubesat SNUSAT-1)</b> </div>
+              <div class="author">with Jihyun Park, Maskey Abhas, In-Seuck Jeong</div>
+              <img src="resources/images/research_snusat1.jpg">
+              <p> SNUSAT-1 is a 2U Cubesat developed as part of the <a href="https://cordis.europa.eu/project/id/284427">QB50 project</a> with 50 other universities. My contribution was in the electrical system of the satellite. I also developed a PCB type magnetic torquer, which is a low power actuator used for controlling the attitude of the satellite. SNUSAT-1 and SNUSAT-1b was launched to orbit on July 2017. </p>
+              <div class="wipdetail"></div>
+            </div>
+            </div>
+        </div>					
+					<div id="lastupdate" style="text-align:right">Last update: March 17, 2018</div>
+				</div>
+				<div class="col-md-1 offset" id="rightbar">
+				</div>
 			</div>
-		</div>
-	<div class="col-md-8 offset" id="middlebar">				
-		<iframe src="https://404warehouse.net/author/gokoreas/" width="800" height="2000">
-			<p>Your browser does not support iframes.</p>
-		</iframe>	
-	</div>
-		<div id="lastupdate" style="text-align:right">Last update: February 14, 2018</div>
-		</div>
-		<div class="col-md-1 offset" id="rightbar">
-		</div>
-	</div>
-	<div class="row"></div>
+			<div class="row"></div>
 </body>
-
 </html>
-
