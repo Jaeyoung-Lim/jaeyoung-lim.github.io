@@ -6,10 +6,9 @@
   }
 }
 
-.background{
+#background{
   align-items: center!important;
-  max-width:1600px;
-  background: #eee;
+  max-width:1600px; padding-top: 10px
 }
 
 #leftbar{
@@ -137,8 +136,8 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 }
 
 #profile {
-  width:15vw;
-  padding: 2vw;
+  width:200px;
+  padding: 10px;
   border-radius: 50%;
 }
 
@@ -151,12 +150,11 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 }
 
 
-#logo {
-  width:20vw;
-  padding: 2vw;
+.logo {
+  width: 200px !important;
+  padding: 20px !important;
 }
 
-#asl-logo {
-  width:15vw;
-  padding: 2vw;
+a.nav-link{
+  font-size:20px;
 }
