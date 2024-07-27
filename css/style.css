@@ -32,9 +32,17 @@
   clear: left;
 }
 .paper{
-  margin-bottom:20px;
-  margin-top:10px;
-  margin-left:20px;
+  clear: both;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.paper img {
+  float: left;
+  /* TRBL */
+  margin: 5px 20px 5px 5px;
+  max-width: 15%;
+  min-width: 40px;
 }
 
 .section{
