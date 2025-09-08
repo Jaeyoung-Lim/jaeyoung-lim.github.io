@@ -163,6 +163,14 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
   padding: 20px !important;
 }
 
+.thumbnail {
+  width:30vw;
+  padding: 0vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a.nav-link{
   font-size:20px;
 }
