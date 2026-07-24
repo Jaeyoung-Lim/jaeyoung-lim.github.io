@@ -146,7 +146,6 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 .video-embed {
   position: relative;
   width: 100%;
-  max-width: 640px;
   aspect-ratio: 16 / 9;
   margin: 5px 20px 15px 5px;
 }
