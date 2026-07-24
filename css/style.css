@@ -187,6 +187,7 @@ https://github.com/delight-im/HTML-Sheets-of-Paper */
 
 .thumbnail {
   width:30vw;
+  max-width: 100%;
   padding: 0vw;
   display: block;
   margin-left: auto;
